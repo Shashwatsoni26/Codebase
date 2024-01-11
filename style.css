@@ -61,7 +61,7 @@ header
     color: white;
     display: flex;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 10px 20px;
     
 }
 
@@ -75,8 +75,8 @@ header
     justify-content: space-around;
 }
 .secondsubbox {
-    width: 300px;
-    /* height: 350px; */
+    width: 500px;
+    height: 350px;
 }
 img {
     width: 100%;
@@ -244,12 +244,15 @@ img {
     padding: 5px;
     border-radius: 20px;
     margin-top: 10px;
+    color: white;
 }
 .courses2 span
 {
     background-color: #444444;
     padding: 5px;
     border-radius: 20px;
+    color: white;
+ 
     margin-top: 10px;
 }
 .courses{
@@ -376,20 +379,21 @@ img {
 {
     font-size: 60px;
     text-align: center;
-    /* padding-top: 40px; */
+    padding-top: 40px;
 }
 
 .sixthimage {
-    width: 189px;
+    width: 160px;
     margin: auto;
     /* height: 200px; */
     /* margin-right: 30px; */
 }
 .sixthimage img
 {
-    width: 100%;
+    width: 160px;
     /* height: auto; */
     object-fit: cover;
+    padding-right: 20px;
    
 }
 .sixrowflex
@@ -640,6 +644,11 @@ img {
     /* padding: 60px;   */
     
 }
+.service_secondbox img {
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+}
 .service_boximg
 {
     text-align: center;
@@ -882,9 +891,9 @@ input[type="password"] {
 }
 button
 {
-    padding: 20px;
+    padding: 10px 20px;
     /* padding-left: 20px;
-     */margin-left: 175px;
+     */margin-left: 157px;
     margin-top: 2rem;
     border-radius: 10px;
 }
